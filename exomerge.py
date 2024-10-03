@@ -2283,7 +2283,7 @@ class ExodusModel(object):
         else:
             if output:
                 output = output[:-1]
-            print output
+            print(output)
 
     def calculate_global_variable(self, expression):
         """
